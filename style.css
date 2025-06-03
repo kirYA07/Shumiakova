@@ -1,0 +1,97 @@
+/*Головні блоки*/
+
+body {
+     background: #c2c0c1;
+     font-family: Arial, sans-serif;
+     font-size: 14px;
+	 background: #c2c0c1 url(images/bg.jpg) repeat-x; /* Колір фону і шлях до файла */ 
+	 
+}
+
+#header {
+     background: #ffffff80;
+     width: 100%;
+     height: 140px;
+}
+ 
+#container {
+     background: #ffffff80;
+    margin: auto auto;
+    text-align: center;
+    width: 80%;
+    min-width: 800px;
+    height: 100%;
+}
+ 
+#navigation {
+     background: #bf8080a8;
+     width: 100%;
+     height: 25px;
+}
+ 
+#sidebar {
+     float: left;
+     width: 20%;
+     /*height: 580px;*/
+}
+
+#content {
+     background: #DCDCDC;
+     float: right;
+     width: 80%;
+     height: 100%;
+}
+ 
+#clear {
+     clear: both;
+}
+ 
+#footer {
+    background: #999999;
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+}
+
+/*Хедер*/
+#logo {
+    padding: 10px 20px;
+    float: left;
+}
+#header H1, H2  {
+	margin: 0px;
+    padding-top: 15px;
+}
+#navigation li{
+    display: inline;
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 4px;
+}
+
+#navigation li a{
+	text-shadow: 0 1px #000000; 
+	text-decoration: none;
+}
+#content img {
+	width: 80%;
+}	
+/*Галерея*/
+.gallery {
+	
+}
+		
+.gallery div {
+	text-align: center;
+	margin: 8px;
+	border-bottom: 3px solid;
+    border-color: #777575;
+}
+.gallery div img {
+	width: 80%;
+}
+.gallery div h3 {
+	margin-top: 0px;
+}

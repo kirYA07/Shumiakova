@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Блочная вёрстка</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+	
+	</style>
+</head>
+<body>
+<div id="container">
+	<div id="header">
+	<div id="logo"> <a href="index.html" title="Головна ВТЕК КНТЕУ"><img src="images/logo.png" /></a></div>
+	<h2>Відокремлений структурний підрозділ</h2>
+	<h2> "Вінницький торговельно-економічний фаховий коледж Київського національного торговельно-економічного університету"</h2>
+	
+	</div>
+		 
+	<div id="navigation">
+	
+		<ul class="menu">
+			<li ><a href="index.html" title="">Головна</a></li>
+			<li ><a href="#" title="">Про коледж</a></li>
+			<li ><a href="media.html" title="Медіа ВТЕК КНТЕУ">Медіа</a></li>
+			<li ><a href="gallery.html" title="">Гелерея</a></li>
+			<li ><a href="#" title="">Контакти</a></li>
+		</ul>
+
+	</div>
+		 
+	<div id="sidebar">
+	<h2>Левая панель</h2>
+	</div>
+		 
+	<div id="content">
+	<h2>Медіатека</h2>
+	<div class="gallery">
+		<div><H3>Аудіо на сайті<audio></H3><audio src="media/11. Антитіла - Буде Син.mp3" controls></audio></div>
+		<div><H3>Відео на сайті</H3><video width="600" src="media/Карантин ВТЕК сумує.mp4" controls></video></div>
+		<div><H3> HTML тег <b>source</b> для аудіо </H3>
+			<audio  controls>
+				<source src="media/11. Антитіла - Буде Син.mp3" type="audio/mpeg">
+				<source src="myAudio.ogg" type="audio/ogg">
+				<p>Ваш браузер не поддерживает HTML5 аудио. Вот взамен
+				<a href="myAudio.mp4">ссылка на аудио</a></p>
+			</audio>
+		</div>
+		<div><H3>HTML тег <b>source</b> для відео</H3>
+			<video width="600" controls="controls">
+				<source src="video.ogv" type='video/ogg'>
+				<source src="media/Карантин ВТЕК сумує.mp4" type='video/mp4'>
+				<source src="video.webm" type='video/webm'>
+				<track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+				<track snc="media/subtitles_uk.vtt" kind="subtitles" srclang="ua" 1аЬе1="Українська">
+			</video>
+		</div>
+		<div><H3>Відео з Ютуб</H3>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/7PV-Y4ZR8X0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+  </div>
+	</div>
+		 
+	<div id="clear">
+		 
+	</div>
+							   
+	<div id="footer">
+		<a href="#" title="facebook"><img src="images/facebook.png" /></a>
+		<a href="#" title="instagram"><img src="images/instagram.png" /></a>
+		<a href="#" title="email"><img src="images/email.png" /></a>
+		<a href="#" title="telegram"><img src="images/telegram.png" /></a>
+		<a href="#" title="YouTube"><img src="images/YouTube.png" /></a>
+				
+		<h2>footer (низ сайта)</h2>
+	</div>
+</div>
+</body>
+</html>
